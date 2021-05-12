@@ -8,6 +8,7 @@ Quotes from the BigA
 
 # Sayings
 * If you going to use Lombok, consider using Kotlin instead.
+* Tactical Solutions are always permanent.
 * Premature Optiumization (or Early Optimization).
 
 ## With Reagrds to Testing
