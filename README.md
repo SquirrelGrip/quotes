@@ -11,6 +11,7 @@ Quotes from the BigA
 ## General
 * If you going to use Lombok, consider using Kotlin instead.
 * Tactical Solutions are always permanent.
+* If needs a DevOps department, you have failed at DevOps.
 * Premature Optiumization (or Early Optimization).
 * Git will never hurt you. It will, however, confuse you, make you look stupid and often make you wish you never started using it, but it will never lose your changes.
 * What does the error message say?
@@ -34,7 +35,6 @@ Quotes from the BigA
 * Public by default.
 * Final by default.
 * companion objects
-* 
 
 ## Testing
 * Stop putting the word test in front of your tests...the @Test should be enough to signify it is a test.
