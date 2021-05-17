@@ -20,6 +20,7 @@ Quotes from the BigA
 * I work in a bank. We pride ourselve on being trusted with people's money. And when you deal with people's money, they don't want you losing it, even that 2 trillionth of a cent is important...Don't rely on double or float to store currency amounts.
 * Don't send emails for every notification, eventually people will create an email rule to ignore them, only to have that 1 message in a 1000 that is interesting, be ignored.
 * Don't optimise until you have 3 variants. When you have 1, there is no variation, when you have 2 variants, you can use an if/else statement. You should consider a different pattern once you have 3 or more variants.
+* It's better to throw back an unknown fish than to keep a poisonous one.
 
 ## IDE
 * The IDE is your friend, let it help you.
