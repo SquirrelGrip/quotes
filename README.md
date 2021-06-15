@@ -12,7 +12,7 @@ Quotes from the BigA
 * If you going to use Lombok, consider using Kotlin instead.
 * Tactical Solutions are always permanent.
 * If needs a DevOps department, you have failed at DevOps.
-* Premature Optiumization (or Early Optimization).
+* Premature Optimization (or Early Optimization).
 * Git will never hurt you. It will, however, confuse you, make you look stupid and often make you wish you never started using it, but it will never lose your changes.
 * What does the error message say?
 * What is the difference between ++i, i++, i=+1 or i=i+1. They are all the same however no one will ever dispute i=i+1 meaning as it is the clearest.
@@ -50,5 +50,6 @@ Quotes from the BigA
 
 # Observations
 * When someone, who has never done TDD before, writes their first failing test and they run it and see it fail, they feel a sense of horror. A seasoned TDDer gets used to that feeling and embraces it.
-* Does every exception need a message? Exception messages are there to provide more information to the user or because the exception itself is vague and/or ambiguous.
+* Does every exception need a message? Exception messages are there to provide more information to the user or because the exception itself is vague and/or ambiguous. The name (or type) of the Exception should be enought to determine what went wrong. If there are any further details that can be passed to the Exception should be. A useful message should be constructed from the information and that should be the only place the message is created.
+** Consider Internationalisation excercise to translate all error message...if all the possible messages are created inside the Exception itself.
 
