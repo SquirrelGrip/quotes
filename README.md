@@ -49,6 +49,7 @@ Quotes from the BigA
 * Write the bare minimum to make that test pass.
 
 # Observations
+* Reliability always trumps Performance...If you cannot finish the race, it doesn't really matter how fast you are.
 * When someone, who has never done TDD before, writes their first failing test and they run it and see it fail, they feel a sense of horror. A seasoned TDDer gets used to that feeling and embraces it.
 * Does every exception need a message? Exception messages are there to provide more information to the user or because the exception itself is vague and/or ambiguous. The name (or type) of the Exception should be enought to determine what went wrong. If there are any further details that can be passed to the Exception should be. A useful message should be constructed from the information and that should be the only place the message is created.
 ** Consider Internationalisation excercise to translate all error message...if all the possible messages are created inside the Exception itself.
