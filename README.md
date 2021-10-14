@@ -40,6 +40,7 @@ Quotes from the BigA
 ## Testing
 * Stop putting the word test in front of your tests...the @Test should be enough to signify it is a test.
 * Use Date.now() + arbitrary amount to create a date in the future instead of hard coding a future date that will eventually come and your tests start breaking.
+* Rocks over Mocks...Prefer the use of a real class over a mock.
 
 ## Test Driven Development
 * Red Green Refactor
