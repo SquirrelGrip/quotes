@@ -13,6 +13,7 @@ Quotes from the BigA
 * Tactical Solutions are always permanent.
 * If needs a DevOps department, you have failed at DevOps.
 * Premature Optimization (or Early Optimization).
+* Make it work THEN make it better.
 * Git will never hurt you. It will, however, confuse you, make you look stupid and often make you wish you never started using it, but it will never lose your changes.
 * What does the error message say?
 * What is the difference between ++i, i++, i=+1 or i=i+1. They are all the same however no one will ever dispute i=i+1 meaning as it is the clearest.
