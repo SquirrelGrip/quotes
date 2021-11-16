@@ -16,13 +16,15 @@ Quotes from the BigA
 * Make it work THEN make it better.
 * Git will never hurt you. It will, however, confuse you, make you look stupid and often make you wish you never started using it, but it will never lose your changes.
 * What does the error message say?
+  * What does the actual message say?
 * What is the difference between ++i, i++, i=+1 or i=i+1. They are all the same however no one will ever dispute i=i+1 meaning as it is the clearest.
 * Name your exceptions in a way that the name tells you what went wrong, for example, NameNotFoundException or ValueRequiredException.
 * I work in a bank. We pride ourselve on being trusted with people's money. And when you deal with people's money, they don't want you losing it, even that 2 trillionth of a cent is important...Don't rely on double or float to store currency amounts.
 * Don't send emails for every notification, eventually people will create an email rule to ignore them, only to have that 1 message in a 1000 that is interesting, be ignored.
 * Don't optimise until you have 3 variants. When you have 1, there is no variation, when you have 2 variants, you can use an if/else statement. You should consider a different pattern once you have 3 or more variants.
 * It's better to throw back an unknown fish than to keep a poisonous one.
-* Less code saves dolphines.
+* Less Code === Saving Dolphines. 
+  * Less Code -> Less Disk Space -> Less Space Used -> Less Waste -> Less Rubbish -> Less Pollution -> Less Dolphines being killed by Pollution
 
 ## IDE
 * The IDE is your friend, let it help you.
