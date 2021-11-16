@@ -22,6 +22,7 @@ Quotes from the BigA
 * Don't send emails for every notification, eventually people will create an email rule to ignore them, only to have that 1 message in a 1000 that is interesting, be ignored.
 * Don't optimise until you have 3 variants. When you have 1, there is no variation, when you have 2 variants, you can use an if/else statement. You should consider a different pattern once you have 3 or more variants.
 * It's better to throw back an unknown fish than to keep a poisonous one.
+* Less code saves dolphines.
 
 ## IDE
 * The IDE is your friend, let it help you.
