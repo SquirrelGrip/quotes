@@ -59,3 +59,36 @@ Quotes from the BigA
 * Does every exception need a message? Exception messages are there to provide more information to the user or because the exception itself is vague and/or ambiguous. The name (or type) of the Exception should be enought to determine what went wrong. If there are any further details that can be passed to the Exception should be. A useful message should be constructed from the information and that should be the only place the message is created.
 ** Consider Internationalisation excercise to translate all error message...if all the possible messages are created inside the Exception itself.
 
+# Ravings of a Mad Man
+I sometimes need to just brain dump. Writing things down, just so I do not have to think about them and then it just clears my brain to think about other things. The following is some of those...
+
+## The Structure of Software
+There are certain tools that once developed, will never need to be redeveloped and will remain a fixture forever. These form the backbone of engineering. For example a screw driver, a hammer, a spanner. Once they exist these exist and a reused over and over again. However there is always variants of these tools that fit different circumstances and the tools themselves are not a one size fits all and each tool comes with many different shapes and sizes.
+
+Software it is the same. There are many different tools, that do the same thing. These tools are often associated with the operating system and have dirrent options to accomodate each use case. For example, file system tools, network tools, calculators, string processing tools, etc.
+
+Then there are the next layer of tools that use the underlying tools to meet a core business component. For example employee directory, client database, email, shared drives, etc. These are often tools built on top of the operating system that form the backbone of the business. 
+
+Then there are set of tools to manipulate data. Word Processing, Spreadsheet, Prensentation Tools, etc. which form the basis of an Office Toolset. These are generic and many already exist.
+
+Then there are the specialised systems. The Systems that form the differentiator for the business. These are the tools that give the business their competitive advantage. Having the right tool for the job can make the users life much easier and leverage the company. These systems are highly tuned, complex and fragile systems. Often draw upon all of the layers and can be quite disruptive. 
+
+The next level is the intelligent systems. The Systems that aid in decision making and often guide the user. These are still emerging, but a lot already exist and are used daily but everyone. And they will get better. 
+
+## Development and Maintenance
+There is a difference between a tool and a machine. Tools do not break and if they do we simply replace them. It is not worth fixing and maintaining a tool as they are usually cheap and expendable. 
+
+A machine, however, needs to maintained and constantly tinkered with, upgraded, fixed and monitored. Car need fuel, they need new tires, they need brakes replaced and oil changed, and every now and then thy need to be overhauled and have major repairs. 
+
+Machine are always being built that are better than their predecessor. New ideas emerge and constant improvements are taking place. 
+
+The more important the machine, the more investment you put into it and the more it is maintained. 
+
+## Rocket Ship Model
+When it comes to software, it is often considered a tool. Which means that once the tool is built, we deploy it and the tool is launched, with little to no improvements and minimal maintenance. This can often be seen by project teams that get budget to build something, and then have the tool deployed and the team is rolled off to build another tool.
+
+Rockets are perfecet example of this. Once the rocket is launched, we can no longer reach the rocket, change it, upgrade it, etc. We simply launch the rocket and let it go. Sometimes they even explode after launch, sometimes spectacularly.
+
+## Car Racing Model
+Machines are maintained. If you have a racing car, you want it to be fast and reliable. The difference between success and failure is often put down to skill of the team and the engine itself. A good car, does not need a great driver, but a great driver can make a poor car do better. We see this all the time in car racing. 
+The key to success in car racing is not speed, but reliability. If you car is not able to finish a race, there is no chance of winning. So at a very minimum, you need to have a reliable machine. Without that, it does not matter how fast the engine can go, if you only complete a few races. There are so many factors just to be reliable.
