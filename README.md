@@ -11,23 +11,26 @@ Quotes from the BigA
 ## General
 * If you going to use Lombok, consider using Kotlin instead.
 * Tactical Solutions are always permanent.
-* If needs a DevOps department, you have failed at DevOps.
+* If you have a DevOps department, you have failed at DevOps.
 * Premature Optimization (or Early Optimization).
 * Make it work THEN make it better.
 * Git will never hurt you. It will, however, confuse you, make you look stupid and often make you wish you never started using it, but it will never lose your changes.
 * What does the error message say?
   * What does the actual message say?
-* What is the difference between ++i, i++, i=+1 or i=i+1. They are all the same however no one will ever dispute i=i+1 meaning as it is the clearest.
+* What is the difference between ++i, i++, i=+1 or i=i+1. They are all the same however no one can ever dispute i=i+1 meaning and clarity.
 * Name your exceptions in a way that the name tells you what went wrong, for example, NameNotFoundException or ValueRequiredException.
 * I work in a bank. We pride ourselve on being trusted with people's money. And when you deal with people's money, they don't want you losing it, even that 2 trillionth of a cent is important...Don't rely on double or float to store currency amounts.
 * Don't send emails for every notification, eventually people will create an email rule to ignore them, only to have that 1 message in a 1000 that is interesting, be ignored.
-* Don't optimise until you have 3 variants. When you have 1, there is no variation, when you have 2 variants, you can use an if/else statement. You should consider a different pattern once you have 3 or more variants.
+* Don't optimise until you have 3 variants.
+  * When you have 1 way of doing something, there is no variation. Hoard Code it.
+  * When you have 2 variants, you can use an if/else statement.
+  * You should consider a different pattern once you have 3 or more variants.
 * It's better to throw back an unknown fish than to keep a poisonous one.
 * Less Code === Saving Dolphines. 
   * Less Code -> Less Disk Space -> Less Space Used -> Less Waste -> Less Rubbish -> Less Pollution -> Less Dolphines being killed by Pollution
 
 ## IDE
-* The IDE is your friend, let it help you.
+* The IDE is your friend. Let it help you.
 * Use the IDE Luke...Let go!
 * Start using a Real IDE.
 * The red squiggle is trying to get your attention. Please don't ignore!
@@ -36,28 +39,32 @@ Quotes from the BigA
 * Null Safety.
 * Extension Functions.
 * Operator Functions.
+* Infix Function.
 * Data classes. (Record classes are now in Java and Kotlin 1.5 takes advantage of them)
+* Enum classes.
 * Public by default.
 * Final by default.
 * companion objects
+* objects
 
 ## Testing
-* Stop putting the word test in front of your tests...the @Test should be enough to signify it is a test.
+* Stop putting the word test in front of your tests...the @Test should be enough to signify it is a test, within the classes that has the word Test at the end of it and is in the test part of your code. What more do you need to remind you you that testing is important.
 * Use Date.now() + arbitrary amount to create a date in the future instead of hard coding a future date that will eventually come and your tests start breaking.
 * Rocks over Mocks...Prefer the use of a real class over a mock.
+* Mock what you do not own.
 
 ## Test Driven Development
 * Red Green Refactor
-* What is motivating you to make that change.
+* What is motivating you to make that change?
 * Write a failing test, instead of writing a test that fails.
-* Instead of trying think if the test is going fail, run it to see if it fails and why.
-* Write the bare minimum to make that test pass.
+* Instead of trying think if the test is going fail, run it to see if it fails and why. (A habit of people new to TDD will often try to figure out what will happen during the test, which is built up from many years of not testing)
+* Write the bare minimum to make that test pass. No more.
 
 # Observations
-* Reliability always trumps Performance...If you cannot finish the race, it doesn't really matter how fast you are.
+* Reliability always trumps Performance...If you cannot finish the race, it doesn't really matter how fast you are at the beginning.
 * When someone, who has never done TDD before, writes their first failing test and they run it and see it fail, they feel a sense of horror. A seasoned TDDer gets used to that feeling and embraces it.
 * Does every exception need a message? Exception messages are there to provide more information to the user or because the exception itself is vague and/or ambiguous. The name (or type) of the Exception should be enought to determine what went wrong. If there are any further details that can be passed to the Exception should be. A useful message should be constructed from the information and that should be the only place the message is created.
-** Consider Internationalisation excercise to translate all error message...if all the possible messages are created inside the Exception itself.
+  * Consider Internationalisation excercise to translate all error message...if all the possible messages are created inside the Exception itself.
 
 # Ravings of a Mad Man
 I sometimes need to just brain dump. Writing things down, just so I do not have to think about them and then it just clears my brain to think about other things. The following is some of those...
