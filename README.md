@@ -60,6 +60,17 @@ Quotes from the BigA
 * Instead of trying think if the test is going fail, run it to see if it fails and why. (A habit of people new to TDD will often try to figure out what will happen during the test, which is built up from many years of not testing)
 * Write the bare minimum to make that test pass. No more.
 
+# Mocking
+* Prefer real objects of mocks
+** If you can use a real object over a mock, then do so. Mocks are pretend objects and in some cases they can pretend to do different things than the real ones. If the real object changes, then the behaviour it exhibits will change also. On the otherhand, mocks will continue to exhibit the same behaviour, even when the real object change.
+* Mock what you don't own
+** If you do not have full control over the interface, then this is a candidate for mocking. If you do own it, prefer to use the real. 
+* Mock to improve performance and reliability
+** In some cases the interface you are using can be slow or even be offline (eg. a database or web service). In this situation, a mock can give you better performance and stability.
+* Mock for complex boundary conditions
+** In situations where an exception is thrown, or a condition that is difficult to reproduce, a mock can be a great way to get the code in the right situation to get to those lines that need testing.
+** For example, testing what to do when an SqlException is thrown, but that will only be thrown when the database goes down.
+
 # Observations
 * Reliability always trumps Performance...If you cannot finish the race, it doesn't really matter how fast you are at the beginning.
 * When someone, who has never done TDD before, writes their first failing test and they run it and see it fail, they feel a sense of horror. A seasoned TDDer gets used to that feeling and embraces it.
