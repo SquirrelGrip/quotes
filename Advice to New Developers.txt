@@ -1,0 +1,38 @@
+After 23 years as a Software Developer and Development Manager, I want to pass along some unsolicited advice to junior developers either because I grew through it, or I've had to deal with developers who behaved poorly:
+
+1) Your EGO will hurt you far more than your junior coding skills. Nobody expects you to be the best early in your career, so don't act like you are.  
+
+2) Working INDEPENDENTLY is a must. It's okay to ask questions, but ask sparingly. Remember, mid and senior level guys need to focus just as much as you do, so before interrupting them, exhaust your resources (Google, Stack Overflow, books, etc..)
+
+3) Working code != CLEAN CODE. You are an author. Write your code so that it can be read. Accept criticism that may seem trivial such as renaming a variable or method. If someone is suggesting it, it's because they didn't know what it did without further investigation.
+
+4) Ask for peer reviews and LISTEN to the critique. Even after 23+ years, I send my code to junior developers and often get good corrections sent back. (remember the ego thing from tip #1?) Even if they have no critiques for me, sometimes they will see a technique I used and learn from that. Peer reviews are win-win-win.
+
+5) When in doubt, do NOT BS your way out. Refer to someone who knows, or offer to get back to them. Often times, persons other than engineers will take what you said as gospel. If that later turns out to be wrong, a bunch of people will have to get involved to clean up the expectations.
+
+6) Slow down in order to speed up. Always start a task by THINKING about the very high level use cases, then slowly work through your logic to achieve that and surmising in a test case. Rushing to complete, even for senior engineers, usually means less-than-ideal code that somebody will have to maintain.
+
+7) Write unit TESTS, always! Even if your company doesn't take unit testing seriously, other engineers will remember how well tested your code is, and they will appreciate you for it/think of you next time that sweet job opens up.
+
+8) Clean code is important, but good IMPRESSIONS are better. I have code that is the most embarrassing crap ever still in production to this day. People don't think of me as "that shitty developer who wrote that ugly code that one time a decade ago," They think of me as "that developer who was fun to work with and worked hard." Because of that, I've never been unemployed for more than a week. It's critical to have a good network and good references.
+
+9) Don't SHY away from the unknown. It's easy to hope somebody else picks up that task that you don't understand, but you won�t learn it if they do. The daunting, unknown tasks are the most rewarding to complete (and trust me, other devs will notice.)
+
+10) LEARNING is up to you. I can't tell you the number of engineers I passed on hiring because their answer to what they know about Java 11 was: "Nothing. I haven't learned it yet because my current company is still using Java 8." This is YOUR craft. It's not up to your employer to keep you relevant in the job market, it's up to YOU. You don't always need to be a pro at the latest and greatest, but at least read the changelog. Stay abreast of current technology, security threats, etc...
+
+11) Your craft needs constant PRACTICE and you will get better with time, however, once you stop practicing, you will start to forget. I used to play a musical instrument, after many years not practicing, I now struggle to play the most basic of tunes, but I have never given up coding.
+
+These are just a few quick tips from my experience. Others may chime in with theirs, and some may dispute mine. I wish you all fruitful careers!
+
+Adrian Richter
+October 2020
+
+12) Face to Face conversations are much more valuable than any other form of communication. The mere act of seeking someone out to have a conversation using the medium of air for sound transmission holds more intangible benefits over any other form of interaction. However, air lacks the ability to record the conversation. Hence notes should be kept, containing the gist of the conversation, if the contents are to be used past the time of interaction.
+
+13) Avoid Acronyms. You may think you look smart, however, when used without a full understanding, the people who lack the meaning, will struggle to understand you.
+
+14) Since writing tip #8, I been unemployed for more than a week. As I get older, it's not hard to find a job, it is harder to convince someone to hire you. There are many reasons that are given, but none are the truth. I am sure you have reasons in your head for why this phenomenon occurs.
+
+Adrian Richter
+October 2025
+

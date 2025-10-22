@@ -110,3 +110,5 @@ Rockets are perfecet example of this. Once the rocket is launched, we can no lon
 ## Car Racing Model
 Machines are maintained. If you have a racing car, you want it to be fast and reliable. The difference between success and failure is often put down to skill of the team and the engine itself. A good car, does not need a great driver, but a great driver can make a poor car do better. We see this all the time in car racing. 
 The key to success in car racing is not speed, but reliability. If you car is not able to finish a race, there is no chance of winning. So at a very minimum, you need to have a reliable machine. Without that, it does not matter how fast the engine can go, if you only complete a few races. There are so many factors just to be reliable.
+
+# 
